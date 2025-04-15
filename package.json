@@ -1,15 +1,14 @@
 {
   "name": "vitepress-template",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 4000",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.9",
-    "vue": "^3.2.37"
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
   }
 }

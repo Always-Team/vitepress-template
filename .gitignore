@@ -15,6 +15,9 @@ coverage
 *.local
 
 # Editor directories and files
+.idea
 .vscode/*
 !.vscode/extensions.json
 
+.vitepress/dist
+.vitepress/cache
